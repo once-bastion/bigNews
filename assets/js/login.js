@@ -79,7 +79,7 @@ $(function () {
         console.log(res.token);
         localStorage.setItem('token', res.token)
         // 跳转到后台主页
-        // location.href = '/index.html'
+        location.href = '/index.html'
       },
 
       beforeSend: function () { //一触发ajax就执行，无任何延迟，排第1
