@@ -66,7 +66,7 @@ $(function () {
     $.ajax({
       url: '/api/login',//服务器路径
       //快速获取表单中的数据
-      type: "POST", //传递参数的方式，可POST可GET，一般用POST
+      method: "POST", //传递参数的方式，可POST可GET，一般用POST
       data: $(this).serialize(), //传递的参数，可为空，可多个
       //dataType: 'json', //数据传递的格式，有Json和xml两种
       async: true,//异步，同步为false

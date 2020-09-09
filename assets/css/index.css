@@ -3,12 +3,12 @@
   font-size: 12px;
 }
 
-.iconfont {
+.iconfont,
+.layui-icon {
   margin-right: 8px;
 }
 
 .layui-icon {
-  margin-right: 8px;
   margin-left: 20px;
 }
 
@@ -25,34 +25,33 @@ a {
   transition: none !important;
 }
 
-.userinfo {
+.userinfo{
   height: 60px;
   line-height: 60px;
   text-align: center;
   font-size: 12px;
-  user-select: none;
 }
 
-.layui-side-scroll .userinfo {
-  border-bottom: 1px solid #282b33;
+.layui-side .layui-side-scroll .userinfo{
+  border-bottom: 1px solid #282B33;
 }
 
-.layui-nav-img {
+.layui-nav-img{
   width: 40px;
   height: 40px;
 }
 
-.text-avatar {
+.text-avatar{
   display: inline-block;
+  position: relative;
   width: 40px;
   height: 40px;
-  background-color: #009688;
-  border-radius: 50%;
   line-height: 40px;
+  background-color: #009688;
   text-align: center;
+  border-radius: 50%;
   font-size: 20px;
-  color: #fff;
-  position: relative;
   top: 4px;
+  color: #fff;
   margin-right: 10px;
 }
